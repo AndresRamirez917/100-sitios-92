@@ -20,20 +20,19 @@ a {
     text-decoration:  none;
     text-transform: capitalize;
     color: #fff;
-    border: 2px solid transparent;
 }
 
 ul {
     list-style: none;
 }
 
-.navbar a:hover,
-.navbar a.active {
-    background: -webkit-linear-gradient(red, black);
-    -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            border: 2px solid transparent;
-}
+// .navbar a:hover,
+// .navbar a.active {
+//     background: -webkit-linear-gradient(red, black);
+//     -webkit-background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//             border: 2px solid transparent;
+// }
 
 ::placeholder {
     font-family: "Font Awesome 5 free";
@@ -42,9 +41,7 @@ ul {
     text-align: right;
 }
 
-p {
-    line-height: 30px;
-}
+
 
 img {
     max-width: 100%;
@@ -165,6 +162,65 @@ form {
             width: 100%;
         }
     }
+}
+
+//showcase
+#showcase {
+    width: 83%;
+    margin: 0 auto;
+    .flexbox-row {
+        margin: 2rem 0;
+    }
+}
+
+//banner
+#banner {
+    background: -webkit-linear-gradient( black, rgba(255, 0, 157, 0.308));
+    padding: 5rem;
+        .banner-flex {
+            width: 90%;
+            margin: 0 auto;
+            .text-1 {
+                font-size: 2rem;
+                font-weight: 300;
+                color: #fff;
+                flex: 1;
+                text-transform: uppercase;
+                line-height: 50px;
+            }
+            .text-2 {
+                font-size: 1.5rem;
+                color: #fff;
+                flex: 1;
+            }
+        }
+}
+
+//showcase-stories
+#showcase-stories {   
+            .showcase-content {
+                background: #fff;
+                .subtitle {
+                padding-top: 3rem;
+                text-align: center;
+                }
+                .container {
+                    width: 90%;
+                    margin:  0 auto;
+                    .showcase-flex {
+                        .flexbox-1 {
+                            margin-bottom: 3rem;
+                            border: 1px solid #000;
+                            border-top: none;
+                            h2 {
+                                text-align: center;
+                                padding: 2rem;   
+                            }
+                        }
+                    }
+                }
+            }
+    
 }
 
 //contact
