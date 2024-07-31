@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $font-stack:"Montserrat", sans-serif;
 
@@ -9,7 +12,6 @@ $font-stack:"Montserrat", sans-serif;
 }
 
 html, body {
-    font-family: $font-stack;
     scroll-behavior: smooth;
     background: #000000b7;
 }
@@ -18,15 +20,19 @@ a {
     text-decoration:  none;
     text-transform: capitalize;
     color: #fff;
+    border: 2px solid transparent;
 }
 
 ul {
     list-style: none;
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.active {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.navbar a:hover,
+.navbar a.active {
+    background: -webkit-linear-gradient(red, black);
+    -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border: 2px solid transparent;
 }
 
 ::placeholder {
@@ -118,6 +124,46 @@ form {
     textarea:focus {
         outline: none;
         border: 1px solid blue;
+    }
+}
+
+//mainheader
+#mainheader {
+    max-width:90%;
+    margin: 0 auto;
+    .navbar {
+        .logo {
+            font-family: 'Permanent Marker';
+            font-size: 5rem;
+            text-align: center;
+            padding: 3rem 0;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+            background: -webkit-linear-gradient(red, black);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border: 2px solid transparent;
+        }
+        ul {
+            display: flex;
+            margin: 0 auto;
+            border: 1px solid #fff;
+            li {
+                display: block;
+                text-align: center;
+                font-size: 1.5rem;
+                margin: 1rem 5rem 1rem 5rem;
+                a {
+                    font-family: "Permanent Marker";
+                }
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
     }
 }
 
