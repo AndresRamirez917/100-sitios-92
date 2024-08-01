@@ -257,7 +257,6 @@ form {
                         width: 110px;
                     }
                 }
-
             }
         }
 }
@@ -283,7 +282,10 @@ form {
 #contact {
 color: #fff;
 background: -webkit-linear-gradient( black, rgba(255, 0, 157, 0.308));
-    .container {
+.subtitle {
+    text-align: center;
+    padding: 3rem 0;
+}
         form {
             width: 70%;
             margin: 0 auto;
@@ -291,6 +293,37 @@ background: -webkit-linear-gradient( black, rgba(255, 0, 157, 0.308));
                 flex: 1;
             }
         }
+}
+
+//article
+#article {
+    .article-container {
+        background: #fff;
+        .article-flex {
+            width: 80%;
+            margin: 0 auto;
+            .flexbox
+             { 
+                    h1 {
+                        font-size: 7rem;
+                        font-weight: 300;
+                    }
+                    img {
+                        width: 50%;
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                    }
+                }
+                .article-text {
+                    p {
+                        line-height: 25px;
+                        text-align: justify;
+                        font-size: 1.2rem;
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        
     }
 }
 

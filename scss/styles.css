@@ -256,12 +256,39 @@ form textarea:focus {
   color: #fff;
   background: -webkit-linear-gradient(black, rgba(255, 0, 157, 0.308));
 }
-#contact .container form {
+#contact .subtitle {
+  text-align: center;
+  padding: 3rem 0;
+}
+#contact form {
   width: 70%;
   margin: 0 auto;
 }
-#contact .container form .flexbox {
+#contact form .flexbox {
   flex: 1;
+}
+
+#article .article-container {
+  background: #fff;
+}
+#article .article-container .article-flex {
+  width: 80%;
+  margin: 0 auto;
+}
+#article .article-container .article-flex .flexbox h1 {
+  font-size: 7rem;
+  font-weight: 300;
+}
+#article .article-container .article-flex .flexbox img {
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#article .article-container .article-flex .article-text p {
+  line-height: 25px;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 #footer {
