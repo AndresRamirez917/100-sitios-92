@@ -75,7 +75,7 @@ img {
 }
 
 .btn {
-    display: block;
+display: block;
     padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
@@ -83,6 +83,7 @@ img {
 }
 
 .btn-1 {
+    display: block;
     border: 1px solid #000;
     background: none;
     color: #000;
@@ -219,8 +220,44 @@ form {
                         }
                     }
                 }
+            } 
+}
+
+//stories
+#stories {
+        .stories-container {
+            .subtitle {
+                margin-left: 7rem;
             }
-    
+            background: #fff;
+            .stories-flex {
+                width: 90%;
+                margin: 0 auto;
+                .last-flex {
+                    margin-bottom: 2rem;
+                }
+                .flexbox {
+                    img {
+                        width: 15%;
+                    }
+                    margin-bottom: 4rem;
+                    .stories-flex-content {
+                        h2 {
+                            margin-bottom: 1rem;
+                        }
+                        p {
+                            line-height: 25px;
+                        }
+                    }
+                }
+                .madre {
+                    .btn {
+                        width: 110px;
+                    }
+                }
+
+            }
+        }
 }
 
 //contact
