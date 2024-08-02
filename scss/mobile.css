@@ -40,6 +40,32 @@
   display: block;
 }
 
+#stories .stories-container .subtitle {
+  margin-left: 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+#stories .stories-container .container .stories-flex .flexbox {
+  display: block;
+}
+#stories .stories-container .container .stories-flex .flexbox img {
+  width: 100%;
+}
+#stories .stories-container .container .stories-flex .flexbox p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+#contributors .container .subtitle {
+  margin-left: 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
 #article .article-container .container .article-flex .flexbox {
   display: block;
 }

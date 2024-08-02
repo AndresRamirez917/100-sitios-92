@@ -56,6 +56,50 @@
     }
 }
 
+//stories
+#stories {
+    .stories-container {
+        // display: block;
+        // margin: 0 auto;
+        // text-align: center;
+       
+        .subtitle {
+            margin-left: 0;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .container {
+            .stories-flex {
+                .flexbox {
+                    display: block;
+                    img {
+                        width: 100%;
+                    }
+                    p {
+                        text-align: justify;
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//contributors
+#contributors {
+    .container {
+        .subtitle {
+            margin-left: 0;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+    }
+}
+
 //article
 #article {
     .article-container {
