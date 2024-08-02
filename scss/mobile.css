@@ -44,7 +44,6 @@
   margin-left: 0;
   text-align: center;
   display: block;
-  margin: 0 auto;
   padding: 2rem 0;
 }
 #stories .stories-container .container .stories-flex .flexbox {
@@ -53,9 +52,12 @@
 #stories .stories-container .container .stories-flex .flexbox img {
   width: 100%;
 }
-#stories .stories-container .container .stories-flex .flexbox p {
+#stories .stories-container .container .stories-flex .flexbox .stories-flex-content p {
   text-align: justify;
   margin-bottom: 2rem;
+}
+#stories .stories-container .container .stories-flex .flexbox .madre .btn {
+  width: 120px;
 }
 
 #contributors .container .subtitle {

@@ -67,7 +67,6 @@
             margin-left: 0;
             text-align: center;
             display: block;
-            margin: 0 auto;
             padding: 2rem 0;
         }
         .container {
@@ -77,9 +76,16 @@
                     img {
                         width: 100%;
                     }
-                    p {
-                        text-align: justify;
-                        margin-bottom: 2rem;
+                    .stories-flex-content {
+                        p {
+                            text-align: justify;
+                            margin-bottom: 2rem;
+                        }    
+                    }
+                    .madre {
+                        .btn {
+                            width: 120px;
+                        }
                     }
                 }
             }
